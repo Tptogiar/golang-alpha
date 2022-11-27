@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func TestAlphaTest(t *testing.T) {
+func TestAlpha(t *testing.T) {
 	ctx := context.Background()
 
 	rdb := redis.NewClient(&redis.Options{
