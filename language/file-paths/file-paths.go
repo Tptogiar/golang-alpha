@@ -24,6 +24,7 @@ func main() {
 	// normalize paths by removing superfluous separators
 	// and directory changes.
 	fmt.Println(filepath.Join("dir1//", "filename"))
+	fmt.Println(filepath.Join("dir1/////", "filename"))
 	fmt.Println(filepath.Join("dir1/../dir1", "filename"))
 
 	// `Dir` and `Base` can be used to split a path to the
