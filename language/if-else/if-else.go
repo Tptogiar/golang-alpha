@@ -29,6 +29,9 @@ func main() {
 	} else {
 		fmt.Println(num, "has multiple digits")
 	}
+
+	// the `num` variable out of scope here
+	//fmt.Println(num, "has 1 digit")
 }
 
 // Note that you don't need parentheses around conditions
